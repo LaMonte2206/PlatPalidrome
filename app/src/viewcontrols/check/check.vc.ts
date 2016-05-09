@@ -18,7 +18,7 @@ export default class CheckViewControl extends BaseViewControl {
         if (this.context.userInput === this.context.userInputReverse) {
             this.context.result = "You've got it!!!"
         } else {
-            this.context.result = "Nope. Try again..."
+            this.context.result = "Nope. Not this time..."
         }
     }
 reverseString(str:string) {
