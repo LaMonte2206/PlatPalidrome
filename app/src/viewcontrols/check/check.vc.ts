@@ -1,5 +1,5 @@
 import {register} from 'platypus';
-import BaseViewControl from '../base/base.vc';
+import  from '../base/base.vc';
 
 export default class CheckViewControl extends BaseViewControl {
     templateString: string = require('./check.vc.html');
